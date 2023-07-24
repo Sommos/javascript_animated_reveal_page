@@ -83,7 +83,7 @@ nav ul {
     left: 50%;
     transform: translateX(-50%) translateY(50%);
     background-image: url("/assets/images/image.png");
-    background-size: 100%;
+    background-size: 150%;
     background-position: 50% 58%;
     background-repeat: no-repeat;
 }
