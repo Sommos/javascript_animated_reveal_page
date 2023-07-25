@@ -5,12 +5,13 @@ timeline.to(".image-wrap", {
     backgroundSize: "100%",
     duration: 1.5,
     ease: "power4.inOut",
-}).to(
-    ".image-wrap", {
-        height: "250px",
-        backgroundPosition: "50% 58%",
-        duration: 1.3,
-        y: "0",
-        ease: "power3.inOut",
-    }
-)
+})
+.to(".image-wrap", {
+    height: "250px",
+    backgroundPosition: "50% 58%",
+    duration: 1.3,
+    y: "0",
+    ease: "power3.inOut",
+}).from(".big-name", {
+
+})
